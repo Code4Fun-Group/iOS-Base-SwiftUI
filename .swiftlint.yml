@@ -69,10 +69,6 @@ overridden_super_call: error
 
 multiline_arguments: error
 
-multiline_function_chains: error
-
-multiline_literal_brackets: error
-
 multiline_parameters: error
 
 multiple_closures_with_trailing_closure: error
