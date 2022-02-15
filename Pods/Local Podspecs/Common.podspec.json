@@ -1,0 +1,27 @@
+{
+  "name": "Common",
+  "version": "1.0",
+  "summary": "Common Framework",
+  "description": "Common",
+  "homepage": "https://www.code4fun.group",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Code4Fun": "namnh.code4fun@gmail.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/Code4Fun-Group/Common.git",
+    "tag": "1.0"
+  },
+  "source_files": "Common/**/*.{swift,h}",
+  "dependencies": {
+    "KeychainAccess": [
+
+    ]
+  }
+}

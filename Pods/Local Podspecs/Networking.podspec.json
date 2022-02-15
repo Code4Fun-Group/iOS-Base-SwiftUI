@@ -1,0 +1,30 @@
+{
+  "name": "Networking",
+  "version": "1.0",
+  "summary": "Networking Framework",
+  "description": "Networking",
+  "homepage": "https://www.code4fun.group",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Code4Fun": "namnh.code4fun@gmail.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/Code4Fun-Group/Networking.git",
+    "tag": "1.0"
+  },
+  "source_files": "Networking/**/*.{swift,h}",
+  "dependencies": {
+    "Common": [
+
+    ],
+    "Alamofire": [
+
+    ]
+  }
+}
