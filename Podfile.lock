@@ -1,0 +1,59 @@
+PODS:
+  - Alamofire (5.5.0)
+  - Common (1.0):
+    - KeychainAccess
+  - CommonUI (1.0):
+    - Common
+    - FloatingPanel
+    - IQKeyboardManagerSwift
+    - Kingfisher
+  - FloatingPanel (2.5.1)
+  - IQKeyboardManagerSwift (6.5.9)
+  - KeychainAccess (4.2.2)
+  - Kingfisher (7.1.2)
+  - netfox (1.20.0)
+  - Networking (1.0):
+    - Alamofire
+    - Common
+  - SwiftLint (0.46.1)
+
+DEPENDENCIES:
+  - Common (from `./Modules/Common`)
+  - CommonUI (from `./Modules/CommonUI`)
+  - netfox
+  - Networking (from `./Modules/Networking`)
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - FloatingPanel
+    - IQKeyboardManagerSwift
+    - KeychainAccess
+    - Kingfisher
+    - netfox
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  Common:
+    :path: "./Modules/Common"
+  CommonUI:
+    :path: "./Modules/CommonUI"
+  Networking:
+    :path: "./Modules/Networking"
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  Common: c125a01786505512c5120d7b3d052d03019fe19f
+  CommonUI: c05ddcd587aea8e1ffe4bc63ac0afd9ec286be81
+  FloatingPanel: 523cb50f490f151fc03fabf24a8322e44d22f65f
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
+  netfox: 6b5c9724304b0cd99ca8515ac732a9f710e4ea5f
+  Networking: cdf0b41c844811e3c76cc443ceeec54839492ee8
+  SwiftLint: aaa29a9f649316095a9079595cb60906bd899353
+
+PODFILE CHECKSUM: 83e984df82dbc45a93cf25ebf70ee85f3958a94d
+
+COCOAPODS: 1.11.2
